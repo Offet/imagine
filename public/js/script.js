@@ -92,3 +92,75 @@ const tweet1 = {
 for (let i = 0; i <10; i++) {
     console.log("Hello, how are you?", i);
   }
+
+
+  // Functions
+// Defining functions
+function login(username, password) {
+  if (username == 'Offet' && password == '1234')
+  {
+    return 'User is logged in!';
+  } else if (username != "Offet") {
+    return "Invalid username!"
+  } else if (password != "1234") {
+    return "Invalid password!"
+  } else {
+    return 'Invalid username or password!';
+  }
+}
+
+// invoking functions
+login("Offet", 1234);
+
+// Basic Arithmetic
+// Addition
+12 + 4;
+45 - 23;
+7 * 12;
+78 / 4;
+
+
+// Comparison operators
+2 != 2
+
+
+let vs = [1, 2, 3, 4];
+let max = Math.max(1, 2, 3, 4)
+console.log("Max:", max)
+
+
+// Order of operations
+1 * 2 + 3 - 4 / 2 % 2
+
+
+
+// String Concatenation
+const firstName = "ELla ";
+const lastName = " Offet ";
+firstName.trim() + " " + lastName.trim()
+
+// Template Literal (New way of string concatenation)
+// `${firstName.trim()}` `${lastName.trim()}`;
+
+// Length
+firstName.length
+
+//Uppercase & Lowercase conversion
+firstName.toLowerCase()
+firstName.toUpperCase()
+
+// Using charAt
+lastName.charAt(1).toUpperCase()
+
+firstName.trim().charAt(2).toUpperCase() + lastName.trim().charAt(2).toUpperCase()
+
+
+// String Conversion
+let mun = 2
+mun.toString()
+
+String(mun)
+
+
+
+
