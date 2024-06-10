@@ -123,7 +123,7 @@ login("Offet", 1234);
 // Comparison operators
 2 != 2
 
-
+//next try
 let vs = [1, 2, 3, 4];
 let max = Math.max(1, 2, 3, 4)
 console.log("Max:", max)
@@ -133,7 +133,7 @@ console.log("Max:", max)
 1 * 2 + 3 - 4 / 2 % 2
 
 
-
+// New topic
 // String Concatenation
 const firstName = "ELla ";
 const lastName = " Offet ";
@@ -160,6 +160,70 @@ let mun = 2
 mun.toString()
 
 String(mun)
+
+
+
+
+//            Class Exercise On Functions
+// Write a function that will add a participant to our google classroom
+
+
+let participants = []; //array of students
+function addParticipant(studentName, cohort) {
+  
+  participants.push(studentName, cohort);
+  // let participantName = {
+  //   name: "Josh John",
+  //   team: "Class Alpha",
+  //   cohort: "Cohort 2"
+  // }
+  return "Participant added!"
+ // console.log(`adding : ${participantName.name} in ${participantName.cohort} to ${paticipantName.class}`);
+}
+
+
+// addParticipant(name, team, cohort);
+addParticipant()
+
+
+
+
+//            Solution To Exercise
+const participant = [];
+function addParticipants(email) {
+  // check if email was provided
+  if (!email) { // the !email in brackets check if the email provided is null and does what the return says//
+    return "Email not provided. Kindly input your email"
+  }
+  
+  // checking if the email provided is valid
+  if (!email.includes("@")) {
+    return "Invalid email provided!"
+  }
+  
+  // adding email to the participants list
+  participants.push(email);
+  // Notify them via mail
+  // return response
+  return "Participant added successfully!";
+}
+
+let mail = "nuellaemmanuella7003@gmail.com";
+addParticipants(mail);
+
+
+
+//              New Lesson
+// Arrays In Javascript Continued
+// adding strings in an array
+const alphabets = ["d", "a", "c", "b"];
+alphabets.sort();
+// joining all the alphabets together
+alphabets.join(" ");
+// splitting the joined array
+alphabets.join(" ").split(" ");
+
+
 
 
 
