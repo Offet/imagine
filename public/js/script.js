@@ -226,5 +226,46 @@ alphabets.join(" ").split(" ");
 
 
 
+// 11th June 2024
+// //  Exercise
+// // Write a function that will take a user with first name and last name and return full name.
+// const user = {
+//   name : "Joojo",
+//   surname  : "Koko",
+// }
+// function fullName(user) {
+//   return `${user.name} ${user.surname}`;
+// }
+
+// fullName("Ella", "Offet");
+
+// fullname(user);
 
 
+// //  Array map
+// const users = [
+//   {firstname: "Linda", lastname: "Shetty"},
+//   {firstname: "lol", lastname: "Shet"},
+//   {firstname: "Lin", lastname: "Shy"},
+//   {firstname: "Lindy", lastname: "hetty"},
+//   {firstname: "Lina", lastname: "Shett"}
+//   ]
+ 
+// users.map(fullName)
+
+
+// Example 2 In Map
+// Map and return squares of numbers
+
+function square(number) {
+  return number ** 2;
+}
+const numbers = [0, 1, 2, 3, 4, 5]
+numbers.map(square);
+
+//  filtering to return even numbers
+function even(number) {
+  return number % 2 === 0;
+}
+
+numbers.filter(even);
