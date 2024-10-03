@@ -304,7 +304,7 @@ function getBirthdayMessage(user) {
     today.getDate() === userBirthday.getDate()
   ) {
     const age = today.getFullYear() - userBirthday.getFullYear();
-    return Happy birthday, ${user.name}! You are ${age} years old today!;
+    return `Happy birthday, ${user.name}! You are ${age} years old today!`;
   } else {
     return "Not your day!";
   }
@@ -324,7 +324,7 @@ class Bottle {
   }
 
   getInfo() {
-    return This is a ${this.color} ${this.shape} bottle with a capacity of ${this.volume}ml;
+    return `This is a ${this.color} ${this.shape} bottle with a capacity of ${this.volume}ml`;
   }
 }
 
@@ -342,7 +342,7 @@ const bottle = {
   shape: 'square',
   volume: 100,
   getInfo: function () {
-    return This is a ${this.color} ${this.shape} bottle with a capacity of ${this.volume}ml;
+    return `This is a ${this.color} ${this.shape} bottle with a capacity of ${this.volume}ml`;
   }
 }
 

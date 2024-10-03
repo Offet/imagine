@@ -1,55 +1,130 @@
-#body {
+body {
     margin: 0;
     padding: 0;
-    font-family: "Times New Roman", Times, serif;
-}
-
-#logo {
-    color: rgb(226, 43, 43);
+    padding-right: 20px;
+  }
+  .poppins-bold {
+    /* font-family: "Poppins", sans-serif; */
+    /* font-weight: 300; */
+    font-style: normal;
+  }
+  
+  .courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #logo {
+    color: black;
     font-size: 30pt;
-    font-family: 'open sans', 'sans-serif';
+    font-family: "open sans", sans-serif;
     text-decoration: none;
-    /* letter-spacing: -3.5pt; */
-}
-
-#dot {
+    padding: 0 0 0 30px;
+  }
+  
+  #dot {
     color: blue;
-}
-
-#navbar {
+  }
+  
+  #navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
-    width: 90%;
-    background-color: #a9a9fd;
-}
-#nav-links {
+    width: 100%;
+    background-color: rgb(55, 80, 221);
+    height: 70px;
+  }
+  
+  .nav-links {
     display: flex;
-    justify-content: center;
+    list-style: none;
+    margin-left: auto; /* Move nav-links to the far right */
     align-items: center;
     gap: 35px;
-    list-style: none;
-    font-family: 'open sans', 'sans-serif';
     padding: 0 30px 0 30px;
-}
-
-#home, #features, #about, #testimonials, #blog, #contact {
-    color:black;
+    font-family: 'open sans', sans-serif;
+  } 
+  
+  
+  
+  .nav-items {
     text-decoration: none;
-}
-
-#first-section {
+    color: black;
+  }
+  
+  #shift {
     display: flex;
-    justify-content: flex-start;
-}
-
-.nav-items:hover {
-    color:hsl(from magenta h s l)
-}
-
-h1 {
+  }
+  
+  #shift-left {
+    margin: 0 0 0 30px;
+    /* font-family: 'open sans', sans-serif; */
+  }
+  
+  #business {
+     font-size: 5rem;
     font-weight: bold;
-    font-size: 40;
-}
-
+    padding-top: 4rem;
+    color: black;
+    /* font-family: 'open sans', sans-serif; */
+   font-family: "Poppins", sans-serif;
+  }
+  
+  #font-one {
+   /* font-family: "Montserrat", sans-serif; */
+   font-family: "Montserrat", sans-serif;
+   font-size: 1.5rem;
+   padding-top: 1rem;
+   color: #6c757d;
+  }
+  
+  /* .nun {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 70px;
+    font-style: normal;
+  } */
+  
+  
+  .get-start {
+    border-width: 2px;
+    background: #4285f4;
+    border-color: #4285f4;
+    color: #fff;
+    position: relative;
+    top: 0;
+    transition: 0.5s all ease;
+    box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block; /* Ensure the button dimensions are taken into account */
+  }
+  
+  .get-start:hover {
+    top: -5px; /* Move the button up */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 8px 30px -5px rgba(66, 133, 244, 0.6); /* Increase the shadow effect */
+  }
+  
+  
+  .nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+  
+  .align-items-stretch {
+    -webkit-box-align: stretch !important;
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important;
+  }
+  
+  .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
